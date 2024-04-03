@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "40925c63-a8ae-4028-b04c-8f02b2d9fac3",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Reminders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/get-reminders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-reminders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/generate-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"generate-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Reminders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/generate-reminders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"generate-reminders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
